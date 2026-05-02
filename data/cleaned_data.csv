@@ -1,0 +1,13 @@
+text,sentiment,cleaned_text
+Amazing delivery service,positive,amazingdeliveryservice
+Worst app experience,negative,worstappexperience
+The product is okay,neutral,theproductisokay
+Excellent customer support,positive,excellentcustomersupport
+Terrible food quality,negative,terriblefoodquality
+Average performance,neutral,averageperformance
+Very happy with this service,positive,veryhappywiththisservice
+I hate this update,negative,ihatethisupdate
+Nothing special,neutral,nothingspecial
+Fantastic application,positive,fantasticapplication
+Bad customer care,negative,badcustomercare
+Normal experience,neutral,normalexperience
