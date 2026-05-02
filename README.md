@@ -10,18 +10,6 @@
 
 ---
 
-## 📌 Overview
-
-This project implements an **end-to-end Social Media Sentiment Analysis Dashboard** using Machine Learning and Natural Language Processing (NLP) techniques to classify social media comments into:
-
-- 😀 Positive
-- 😡 Negative
-- 😐 Neutral
-
-The system analyzes text-based social media comments, predicts sentiment using Machine Learning models, and visualizes results through an interactive Streamlit dashboard.
-
----
-
 # 🚀 Dashboard Preview
 
 ![Dashboard](images/dash5.1.png)
@@ -32,17 +20,31 @@ The system analyzes text-based social media comments, predicts sentiment using M
 
 ---
 
+## 📌 Overview
+
+This project implements an end-to-end **Social Media Sentiment Analysis Dashboard** using Machine Learning and Natural Language Processing (NLP).
+
+The system classifies social media comments into:
+
+- 😀 Positive
+- 😡 Negative
+- 😐 Neutral
+
+The dashboard analyzes text-based comments, predicts sentiment using ML models, and visualizes results interactively using Streamlit.
+
+---
+
 ## 🛠 Problem Statement
 
 Companies receive thousands of customer comments, reviews, tweets, and feedback daily.
 
-Manual analysis is difficult because:
+Manual analysis becomes difficult because:
 
 - ❌ Huge amount of text data
-- ❌ Real-time monitoring is impossible manually
+- ❌ Real-time monitoring is difficult
 - ❌ Customer complaints may be missed
 - ❌ Brand reputation changes rapidly
-- ❌ Marketing campaign reactions are difficult to measure
+- ❌ Marketing campaign reactions are hard to track
 
 ---
 
@@ -63,7 +65,7 @@ This project provides:
 ## 🏭 Industry Relevance
 
 | Industry | Application |
-|----------------------|--------------------------------|
+|----------|-------------|
 | E-Commerce | Product review analysis |
 | Banking | Customer feedback monitoring |
 | Food Delivery | Complaint analysis |
@@ -99,8 +101,6 @@ This project provides:
 ---
 
 ## 📊 Dataset
-
-Social Media Comments Dataset
 
 ### Dataset Information
 
@@ -156,7 +156,7 @@ Social-Media-Sentiment-Analysis-Dashboard/
 ├── images/
 │   ├── dash5.1.png
 │   ├── dash5.2.png
-│   ├── dash5.3.png
+│   └── dash5.3.png
 │
 ├── models/
 │   ├── sentiment_model.pkl
@@ -177,7 +177,7 @@ Social-Media-Sentiment-Analysis-Dashboard/
 ## ⚙ Installation & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/social-media-sentiment-analysis-dashboard.git
+git clone https://github.com/maheshbhakre/social-media-sentiment-analysis-dashboard.git
 
 cd social-media-sentiment-analysis-dashboard
 
@@ -225,26 +225,6 @@ streamlit run app/streamlit_app.py
 * Recall
 * F1-Score
 * Confusion Matrix
-
----
-
-# 📸 PHASE-WISE IMPLEMENTATION PROOF
-
-## 🔹 Phase 1 — Text Input & Prediction
-
-![Phase1](images/dash5.1.png)
-
----
-
-## 🔹 Phase 2 — Sentiment Analysis Dashboard
-
-![Phase2](images/dash5.2.png)
-
----
-
-## 🔹 Phase 3 — Visualization & Results
-
-![Phase3](images/dash5.3.png)
 
 ---
 
@@ -296,7 +276,7 @@ Dashboard Visualization
 
 ---
 
-# 🌐 CONNECT WITH ME
+# 🌐 Connect With Me
 
 <a href="https://github.com/maheshbhakre">
 <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
@@ -318,7 +298,7 @@ Dashboard Visualization
 
 # ⭐ NOTE
 
-This project demonstrates a complete **end-to-end NLP and Machine Learning pipeline for Social Media Sentiment Analysis**, including:
+This project demonstrates a complete end-to-end NLP and Machine Learning pipeline for Social Media Sentiment Analysis, including:
 
 * Text preprocessing
 * NLP feature extraction
@@ -329,7 +309,7 @@ This project demonstrates a complete **end-to-end NLP and Machine Learning pipel
 * Visualization dashboard
 * Real-time prediction simulation
 
-The project is designed to simulate how modern companies analyze customer emotions, public opinions, and brand reputation using Machine Learning and Natural Language Processing.
+The project simulates how modern companies analyze customer emotions, public opinions, and brand reputation using Machine Learning and NLP.
 
 ```
 ```
