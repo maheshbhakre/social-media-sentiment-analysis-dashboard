@@ -1,4 +1,3 @@
-````markdown
 # 📊 Social Media Sentiment Analysis Dashboard using Machine Learning & NLP
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
@@ -10,27 +9,35 @@
 
 ---
 
-# 🚀 Dashboard Preview
-
-![Dashboard](images/dash5.1.png)
-
-![Dashboard](images/dash5.2.png)
-
-![Dashboard](images/dash5.3.png)
-
----
-
 ## 📌 Overview
 
-This project implements an end-to-end **Social Media Sentiment Analysis Dashboard** using Machine Learning and Natural Language Processing (NLP).
-
-The system classifies social media comments into:
+This project implements an **end-to-end Social Media Sentiment Analysis Dashboard** using Machine Learning and Natural Language Processing (NLP) techniques to classify social media comments into:
 
 - 😀 Positive
 - 😡 Negative
 - 😐 Neutral
 
-The dashboard analyzes text-based comments, predicts sentiment using ML models, and visualizes results interactively using Streamlit.
+The system analyzes text-based social media comments, predicts sentiment using Machine Learning models, and visualizes results through an interactive Streamlit dashboard.
+
+---
+
+# 🚀 Dashboard Preview
+
+## 🔹 Dashboard Home
+
+![Dashboard](./images/dash5.1.png)
+
+---
+
+## 🔹 Sentiment Prediction
+
+![Dashboard](./images/dash5.2.png)
+
+---
+
+## 🔹 Visualization & Analytics
+
+![Dashboard](./images/dash5.3.png)
 
 ---
 
@@ -40,11 +47,11 @@ Companies receive thousands of customer comments, reviews, tweets, and feedback 
 
 Manual analysis becomes difficult because:
 
-- ❌ Huge amount of text data
-- ❌ Real-time monitoring is difficult
-- ❌ Customer complaints may be missed
+- ❌ Huge volume of text data
+- ❌ Real-time monitoring is difficult manually
+- ❌ Negative comments may be missed
 - ❌ Brand reputation changes rapidly
-- ❌ Marketing campaign reactions are hard to track
+- ❌ Marketing response analysis is slow
 
 ---
 
@@ -53,16 +60,16 @@ Manual analysis becomes difficult because:
 This project provides:
 
 - 📊 Automated sentiment classification
-- 🧠 NLP-based text analysis
+- 🧠 NLP-based text preprocessing
 - ⚡ Real-time sentiment prediction
-- 📈 Sentiment distribution visualization
-- 🖥 Interactive Streamlit dashboard
-- 🔍 CSV upload for bulk prediction
+- 📈 Sentiment visualization dashboard
+- 🖥 Interactive Streamlit interface
+- 🔍 CSV upload for bulk predictions
 - 📉 Business insight generation
 
 ---
 
-## 🏭 Industry Relevance
+# 🏭 Industry Relevance
 
 | Industry | Application |
 |----------|-------------|
@@ -76,44 +83,45 @@ This project provides:
 
 ---
 
-## 📊 Business Impact
+# 📊 Business Impact
 
 - 💬 Understand customer emotions instantly
-- 📉 Detect negative reviews quickly
-- 📈 Improve marketing decisions
+- 📉 Detect negative feedback quickly
+- 📈 Improve marketing strategies
 - 🔒 Monitor brand reputation
-- ⚡ Reduce manual analysis effort
-- 📊 Generate business insights from social media
+- ⚡ Reduce manual analysis workload
+- 📊 Generate actionable business insights
 
 ---
 
-## ⚙ Tech Stack
+# ⚙ Tech Stack
 
 - **Language:** Python
 - **Data Processing:** Pandas, NumPy
 - **NLP:** NLTK
-- **Machine Learning:** Scikit-learn (Logistic Regression)
-- **Feature Extraction:** TF-IDF Vectorization
+- **Machine Learning:** Scikit-learn
+- **Model:** Logistic Regression
+- **Feature Extraction:** TF-IDF Vectorizer
 - **Visualization:** Plotly, Matplotlib
 - **Dashboard:** Streamlit
 - **Model Storage:** Joblib
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset
 
 ### Dataset Information
 
-- Synthetic social media comments
-- Positive, Negative, and Neutral labels
-- CSV-based simulation dataset
+- Synthetic social media comments dataset
+- Positive, Negative, and Neutral sentiments
+- CSV-based structured dataset
 
 ### Features
 
 - Text Comment
 - Sentiment Label
 
-### Target
+### Target Classes
 
 - `positive`
 - `negative`
@@ -121,9 +129,9 @@ This project provides:
 
 ---
 
-## 🏗 System Architecture
+# 🏗 System Architecture
 
-```bash
+```text
 Social Media Comments
         ↓
 Text Cleaning
@@ -137,13 +145,13 @@ Machine Learning Model
 Sentiment Prediction
         ↓
 Dashboard Visualization
-````
+```
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```bash
+```text
 Social-Media-Sentiment-Analysis-Dashboard/
 │
 ├── app/
@@ -174,7 +182,7 @@ Social-Media-Sentiment-Analysis-Dashboard/
 
 ---
 
-## ⚙ Installation & Setup
+# ⚙ Installation & Setup
 
 ```bash
 git clone https://github.com/maheshbhakre/social-media-sentiment-analysis-dashboard.git
@@ -190,21 +198,21 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+# ▶️ Usage
 
-### Run Data Preprocessing
+## Run Data Preprocessing
 
 ```bash
 python src/data_preprocessing.py
 ```
 
-### Train Machine Learning Model
+## Train Machine Learning Model
 
 ```bash
 python src/train_model.py
 ```
 
-### Run Dashboard
+## Run Streamlit Dashboard
 
 ```bash
 streamlit run app/streamlit_app.py
@@ -212,25 +220,45 @@ streamlit run app/streamlit_app.py
 
 ---
 
-## 📊 Model Performance
+# 📊 Model Performance
 
-* Logistic Regression achieved strong sentiment classification performance
-* TF-IDF improved text feature extraction
-* Effective for text classification tasks
+- ✅ Logistic Regression achieved strong sentiment classification accuracy
+- ✅ TF-IDF improved text feature extraction
+- ✅ Effective for NLP-based text classification tasks
 
 ### Evaluation Metrics Used
 
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+---
+
+# 📸 PHASE-WISE IMPLEMENTATION
+
+## 🔹 Phase 1 — Text Input & Prediction
+
+![Phase1](./images/dash5.1.png)
+
+---
+
+## 🔹 Phase 2 — Sentiment Dashboard
+
+![Phase2](./images/dash5.2.png)
+
+---
+
+## 🔹 Phase 3 — Visualization & Analytics
+
+![Phase3](./images/dash5.3.png)
 
 ---
 
 # 🧠 NLP + Machine Learning Workflow
 
-```bash
+```text
 Social Media Comments
         ↓
 Text Preprocessing
@@ -248,25 +276,25 @@ Dashboard Visualization
 
 # 🌍 Real-World Applications
 
-* 🛒 Product Review Analysis
-* 🍔 Food Delivery Feedback Monitoring
-* 🎬 Movie & Entertainment Sentiment Analysis
-* 🏦 Banking Customer Feedback
-* 📱 Social Media Monitoring
-* 📈 Marketing Campaign Analysis
-* 🗳 Political Opinion Mining
+- 🛒 Product Review Analysis
+- 🍔 Food Delivery Feedback Monitoring
+- 🎬 Movie & Entertainment Sentiment Analysis
+- 🏦 Banking Customer Feedback
+- 📱 Social Media Monitoring
+- 📈 Marketing Campaign Analysis
+- 🗳 Political Opinion Mining
 
 ---
 
 # 🔥 Future Improvements
 
-* BERT-based NLP Model
-* Real-Time Twitter API Integration
-* Emotion Detection
-* Topic Modeling
-* Multilingual Sentiment Analysis
-* Cloud Deployment
-* Live Streaming Dashboard
+- BERT-based NLP Models
+- Real-Time Twitter API Integration
+- Emotion Detection
+- Topic Modeling
+- Multilingual Sentiment Analysis
+- Cloud Deployment
+- Live Streaming Dashboard
 
 ---
 
@@ -298,18 +326,21 @@ Dashboard Visualization
 
 # ⭐ NOTE
 
-This project demonstrates a complete end-to-end NLP and Machine Learning pipeline for Social Media Sentiment Analysis, including:
+This project demonstrates a complete **end-to-end NLP and Machine Learning pipeline for Social Media Sentiment Analysis**, including:
 
-* Text preprocessing
-* NLP feature extraction
-* TF-IDF vectorization
-* Sentiment classification
-* Model training
-* Evaluation metrics
-* Visualization dashboard
-* Real-time prediction simulation
+- Text preprocessing
+- NLP feature extraction
+- TF-IDF vectorization
+- Sentiment classification
+- Model training
+- Evaluation metrics
+- Visualization dashboard
+- Real-time prediction simulation
 
-The project simulates how modern companies analyze customer emotions, public opinions, and brand reputation using Machine Learning and NLP.
+The project simulates how modern companies analyze customer emotions, public opinions, and brand reputation using Machine Learning and Natural Language Processing.
 
-```
-```
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
